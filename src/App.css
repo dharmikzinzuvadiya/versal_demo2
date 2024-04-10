@@ -1,0 +1,145 @@
+.bod {
+    /* height: 95vh; */
+    width: 100%;
+    /* z-index: 0.5; */
+    /* position: relative; */
+    position: absolute;
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: Arial, sans-serif;
+    background-image: url(https://static.wixstatic.com/media/624f8b_b1396716324a42e7be491267b7714d45~mv2.png/v1/fill/w_1525,h_539,al_c,q_90,enc_auto/Cliqq_wave3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    background-color: whitesmoke;
+}
+
+
+.invoice {
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+    z-index: 1;
+    position: sticky;
+
+}
+.invoiceformate{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    /* border: none; */
+    /* outline: none; */
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap:  10px;
+}
+
+.billformat {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 1;
+    /* position: relative; */
+    margin-top: 50px;
+    
+}
+
+.bill {
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin: 2% 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0; */
+    padding: 10px;
+    text-align: end;
+    background-image: url(https://wallpapercave.com/wp/wp3469887.jpg);
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box2{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    text-align: start;
+    background-image: url(https://wallpapercave.com/wp/wp3469887.jpg);
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location{
+    width: 40%;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/wp3469887.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://wallpapercave.com/wp/wp3469887.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
